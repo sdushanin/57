@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 //Имплементируем интерфейс
 public abstract class Operation implements InputOperetion {
-    double number1;
-    double number2;
+    double number1=77;
+    double number2=7;
 
     Scanner scanner = new Scanner(System.in);
 
